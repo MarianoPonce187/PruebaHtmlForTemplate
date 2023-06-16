@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math 6 Secundaria</title>
+    <script src="static/tailwind.js"></script>
+  </head>
+  <body class="bg-[#e3e3e3]">
+    <div class="bg-[#fcfcfc] mx-10 px-4 my-6 py-6 shadow-[4px_6px_5px_#9FA0A3]">
+      <h1 class="text-center">
+        Evaluación de Matemáticas de 6to. de Secundaria
+      </h1>
+      <!-- punto 1 -->
+      <div class="flex flex-col mt-4 justify-center">
+        <p class="mx-3">
+          1) Seleccionar la ecuación correspondiente a la recta de la siguiente
+          gráfica:
+        </p>
+        <div class="flex mx-4 my-4 items-center justify-around">
+          <div class="h-[220px] w-[300px] bg-gray-500">
+            <img
+              src="static/mathSexthHigh/primerPunto.png"
+              alt="Primer punto"
+              class="object-contain"
+            />
+          </div>
+          <div class="h-[160px] bg-gray-500 w-[170px]">
+            <img
+              src="static/mathSexthHigh/puntoUnoOpciones.png"
+              alt="Options primer punto"
+              class="object-cover"
+            />
+          </div>
+          <!-- Opciones -->
+          <div class="-mt-2">
+            <form action="get" class="flex flex-col gap-6">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="first-a"
+                  id="first-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="first-b"
+                  id="first-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="first-c"
+                  id="first-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="first-d"
+                  id="first-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 2 -->
+      <div class="flex flex-col mt-4 justify-center">
+        <p class="mx-3">
+          2) Determinar la fórmula de la función representada en la siguiente
+          gráfica:
+        </p>
+        <div class="flex mx-8 my-4 items-center justify-around">
+          <div class="h-[300px] w-[300px] bg-gray-500">
+            <img
+              src="static/mathSexthHigh/segundoPunto.png"
+              alt="Segundo punto"
+              class="object-contain"
+            />
+          </div>
+          <div class="h-[160px] bg-gray-500 w-[220px]">
+            <img
+              src="static/mathSexthHigh/puntoDosOpciones.png"
+              alt="Options segundo punto"
+              class="object-cover"
+            />
+          </div>
+          <!-- Opciones -->
+          <div class="ml-1 mt-0.5">
+            <form action="get" class="flex flex-col gap-6">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 3 -->
+      <div class="flex flex-col mt-4 justify-center">
+        <p class="mx-3">
+          3) Cuáles son las soluciones de la ecuación
+          <math>
+            <mrow>
+              <mn>2</mn>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>-</mo>
+              <mn>4</mn>
+              <mi>x</mi>
+              <mo>-</mo>
+              <mn>6</mn>
+              <mo>=</mo>
+              <mn>0</mn>
+            </mrow>
+          </math>
+        </p>
+        <!-- Opciones -->
+        <div class="flex mx-8 my-4 justify-around">
+          <div class="h-[100px] mt-2 bg-gray-500 w-[250px]">
+            <img
+              src="static/mathSexthHigh/puntoTresOpciones.png"
+              alt="Options tercer punto"
+              class="object-cover"
+            />
+          </div>
+          <div class="mt-0.5">
+            <form action="get" class="flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 4 -->
+      <div class="flex flex-col mt-4 justify-center">
+        <p class="mx-3">
+          4) Cuál es la solución del siguiente sistema de ecuaciones:
+        </p>
+        <div class="w-full flex justify-center mt-4">
+          <div class="h-[60px] w-[180px] bg-gray-500">
+            <img
+              src="static/mathSexthHigh/cuartoPunto.png"
+              alt="Cuarto punto"
+              class="object-contain"
+            />
+          </div>
+        </div>
+        <div class="flex mx-8 my-4 items-center justify-around">
+          <div class="h-[120px] bg-gray-500 w-[220px]">
+            <img
+              src="static/mathSexthHigh/puntoCuatroOpciones.png"
+              alt="Options cuarto punto"
+              class="object-cover"
+            />
+          </div>
+          <!-- Opciones -->
+          <div class="ml-1 mt-0.5">
+            <form action="get" class="flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 5 -->
+      <div class="flex flex-col mt-4 justify-center">
+        <p class="mx-3">
+          5) Pablo en el kiosco compró 3 alfajores y 5 chocolates por $890. Si
+          hubiera comprado 6 alfajores y 2 chocolates hubiera pagado $740.
+          ¿Cuánto cuesta cada alfajor y cada chocolate?
+        </p>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4">
+            <p>a) cada alfajor cuesta $70 y cada chocolate $136</p>
+            <p>b) cada alfajor cuesta $80 y cada chocolate $130</p>
+            <p>c) cada alfajor cuesta $70 y cada chocolate$160</p>
+            <p>d) cada alfajor cuesta $80 y cada chocolate $140</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-0.5">
+            <form action="get" class="flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 6 -->
+      <div class="flex flex-col mt-10 justify-center">
+        <p class="mx-3">
+          6) ¿Cuál debería ser el valor de x para que se cumpla la siguiente
+          igualdad?
+        </p>
+        <div class="w-full flex justify-center mt-4">
+          <div class="h-[40px] w-[180px] bg-gray-500">
+            <img
+              src="static/mathSexthHigh/sextoPunto.png"
+              alt="Sexto punto"
+              class="object-contain"
+            />
+          </div>
+        </div>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4">
+            <p>a) cada alfajor cuesta $70 y cada chocolate $136</p>
+            <p>b) cada alfajor cuesta $80 y cada chocolate $130</p>
+            <p>c) cada alfajor cuesta $70 y cada chocolate$160</p>
+            <p>d) cada alfajor cuesta $80 y cada chocolate $140</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-0.5">
+            <form action="get" class="flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 7 -->
+      <div class="flex flex-col mt-10 justify-center">
+        <p class="mx-3">
+          7) Cuál es la superficie del rectángulo ABCD sabiendo que el lado AB
+          mide 7,5 cm y la diagonal AC mide 12,5 cm.
+        </p>
+        <div class="w-full flex justify-center mt-4">
+          <div class="h-[150px] w-[180px] bg-gray-500">
+            <img
+              src="static/mathSexthHigh/septimoPunto.png"
+              alt="Septimo punto"
+              class="object-contain"
+            />
+          </div>
+        </div>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4">
+            <p>
+              a) 70 <math><mi>cm</mi><sup>2</sup></math>
+            </p>
+            <p>
+              b) 37,5<math><mi>cm</mi><sup>2</sup></math>
+            </p>
+            <p>
+              c) 75<math><mi>cm</mi><sup>2</sup></math>
+            </p>
+            <p>
+              d) 93,75<math><mi>cm</mi><sup>2</sup></math>
+            </p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-0.5">
+            <form action="get" class="flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 8 -->
+      <div class="flex flex-col mt-10 justify-center">
+        <p class="mx-3">
+          8) En el triángulo rectángulo ABC, el lado AC mide 7 cm y el ángulo
+          &#945; = 32&deg;
+        </p>
+        <div class="w-full flex justify-center mt-4">
+          <div class="h-[130px] w-[210px] bg-gray-500">
+            <img
+              src="static/mathSexthHigh/octavoPunto.png"
+              alt="Septimo punto"
+              class="object-contain"
+            />
+          </div>
+        </div>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4 gap-3">
+            <p>
+              a)
+              <math>
+                <mi>A</mi><mi>B</mi>
+                <mo>=</mo>
+                <mfrac>
+                  <mn>7</mn>
+
+                  <mrow>
+                    <mo>cos</mo>
+                    <mn>32°</mn>
+                  </mrow>
+                </mfrac>
+              </math>
+            </p>
+            <p class="mt-1">
+              b)
+              <math>
+                <mi>A</mi><mi>B</mi>
+                <mo>=</mo>
+                <mfrac>
+                  <mn>7</mn>
+
+                  <mrow>
+                    <mo>sen</mo>
+                    <mn>32°</mn>
+                  </mrow>
+                </mfrac>
+              </math>
+            </p>
+            <p>
+              c) <math> <mi>A</mi><mi>B</mi></math> = 7 &#8901; cos 32&deg;
+            </p>
+            <p>
+              d) <math> <mi>A</mi><mi>B</mi></math> = 7 &#8901; sen 32&deg;
+            </p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-0.5">
+            <form action="get" class="flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 9 -->
+      <div class="flex flex-col mt-8 justify-center">
+        <p class="mx-3">
+          9) Sofía y Juan son vendedores en una feria, Sofía vende dulce de
+          mamón a $1400 cada frasco y Juan vende empanadas congeladas a $1960 la
+          docena. Durante el fin de semana largo Sofía vendió 14 frascos de
+          dulce de mamón ¿Cuántas docenas de empanadas vendió Juan si recaudó el
+          doble que Sofía ese fin de semana?
+        </p>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4">
+            <p>Elige la opción de respuesta que considera correcta:</p>
+            <p class="mt-1">a) 28 docenas</p>
+            <p>b) 7 docenas</p>
+            <p>c) 20 docenas</p>
+            <p>d) 10 docenas</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-7">
+            <form action="get" class="flex flex-col gap-1">
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 10 -->
+      <div class="flex flex-col mt-8 justify-center">
+        <p class="mx-3">
+          10) En un negocio se ofrece una campera que sale $15.000 de contado o
+          con tarjeta de crédito en tres cuotas de $5.400. Si decidiera pagar
+          con tarjeta, ¿Qué porcentaje de recargo tendrá?
+        </p>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4">
+            <p>a) 0,8 %</p>
+            <p>b) 8 %</p>
+            <p>c) 7,4 %</p>
+            <p>d) 36 %</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-2">
+            <form action="get" class="flex flex-col gap-1">
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 11 -->
+      <div class="flex flex-col mt-8 justify-center">
+        <p class="mx-3">11) ¿Cuál de las sumas dadas es equivalente a 44/8?</p>
+        <div class="">
+          <div class="flex justify-evenly mt-4">
+            <p>a) 5+1/4</p>
+            <p>b) 5+1/2</p>
+            <p>c) 5+5/8</p>
+            <p>d) 4+4/8</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-2">
+            <form action="get" class="flex justify-evenly">
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 12 -->
+      <div class="flex flex-col mt-10 justify-center">
+        <p class="mx-3">
+          12) Indicar la expresión equivalente a
+          <math>
+            <msqrt>
+              <mrow>
+                <mn>8</mn>
+                <mo>&#8729;</mo>
+                <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </msqrt>
+          </math>
+          sabiendo que x es un número positivo.
+        </p>
+        <div class="">
+          <div class="flex justify-evenly mt-4">
+            <p>
+              a) 4x<sup>2</sup> ∙
+              <math
+                ><msqrt
+                  ><mrow><mn>2</mn></mrow></msqrt
+                ></math
+              >
+            </p>
+            <p>
+              b) 2x ∙
+              <math
+                ><msqrt
+                  ><mrow><mn>2x</mn></mrow></msqrt
+                ></math
+              >
+            </p>
+            <p>
+              c) 2x ∙
+              <math
+                ><msqrt
+                  ><mrow><mn>2</mn></mrow></msqrt
+                ></math
+              >
+            </p>
+            <p>
+              d) 4 ∙
+              <math>
+                <msqrt>
+                  <mrow>
+                    <mn>2</mn>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </msqrt>
+              </math>
+            </p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-2">
+            <form action="get" class="flex justify-evenly">
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="decimoSegundo-a"
+                  id="decimoSegundo-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 13 -->
+      <div class="flex flex-col mt-10 justify-center">
+        <p class="mx-3">
+          13) En una heladería quieren armar potes de helado con 3 gustos
+          distintos. Con 5 gustos, ¿cuántos potes de 3 gustos distintos se
+          pueden armar?
+        </p>
+        <div class="flex justify-around">
+          <div class="justify-center mt-4">
+            <p>a) 8 potes distintos</p>
+            <p>b) 15 potes distintos</p>
+            <p>c) 10 potes distintos</p>
+            <p>d) 4 potes distintos</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-4">
+            <form action="get" class="flex flex-col justify-evenly">
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Punto 14 -->
+      <div class="flex flex-col mt-8 justify-center">
+        <p class="mx-3">
+          14) Un estudiante obtuvo las siguientes notas en las evaluaciones y
+          trabajos prácticos del trimestre: 3,50 - 5 - 6 - 7. Si se aprueba con
+          6 y tiene una evaluación más como posibilidad de aprobar ¿qué nota
+          necesita obtener en esa evaluación para que el promedio del trimestre
+          sea justo igual a 6?
+        </p>
+        <div class="">
+          <div class="flex justify-evenly mt-4">
+            <p>a) 6</p>
+            <p>b) 8,50</p>
+            <p>c) 8</p>
+            <p>d) 7,50</p>
+          </div>
+
+          <!-- Opciones -->
+          <div class="mt-2">
+            <form action="get" class="flex justify-evenly">
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">a)</p>
+                <input
+                  type="checkbox"
+                  name="second-a"
+                  id="second-a"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">b)</p>
+                <input
+                  type="checkbox"
+                  name="second-b"
+                  id="second-b"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">c)</p>
+                <input
+                  type="checkbox"
+                  name="second-c"
+                  id="second-c"
+                  class="mt-1"
+                />
+              </div>
+              <div class="flex text-[16px] font-medium items-center gap-1">
+                <p class="">d)</p>
+                <input
+                  type="checkbox"
+                  name="second-d"
+                  id="second-d"
+                  class="mt-1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
