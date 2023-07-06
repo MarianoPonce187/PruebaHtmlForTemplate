@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math 3 Primaria</title>
+    <script src="static/tailwind.js"></script>
+  </head>
+  <body
+    class="bg-contain bg-start h-screen w-full"
+    style="background-image: url(static/backAndLabel/CTES-MEC.png)"
+  >
+    <div
+      class="bg-[#ffffff] mx-10 px-4 my-6 py-6 shadow-[4px_6px_5px_#9FA0A3] rounded-md"
+    >
+      <input type="hidden" name="cueanexo" />
+      <input type="hidden" name="examen_asignature" />
+      <input type="hidden" name="examen_type" />
+      <input type="hidden" name="examen_year" />
+      <div class="flex justify-end px-4 mt-4">
+        Nombres y Apellidos
+        <input
+          type="text"
+          name=""
+          class="rounded-t-md border-b border-black pl-2 ml-2 w-[300px]"
+        />
+      </div>
+
+      <h1 class="text-center underline text-2xl mt-8 font-medium">
+        Evaluación de Matemáticas de 6to. grado de Primaria
+      </h1>
+      <form action="POST">
+        <div class="mt-16">
+          <hr color="black" class="mx-4 h-1" />
+          <h3 class="text-center mt-4 font-bold text-xl">
+            NÚMERO Y OPERACIONES
+          </h3>
+        </div>
+        <!-- punto 1 -->
+        <div class="flex flex-col mt-8 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            1) ¿Cuál de las siguientes descomposiciones es equivalente a
+            “ochenta y tres mil ochocientos treinta y cinco”?
+          </p>
+
+          <div class="flex justify-evenly mt-4">
+            <div class="justify-center mt-4">
+              <p>A) 8x10.000 + 3x1.000 + 8x100 + 3x10 + 5x1</p>
+              <p>B) 8x10.000 + 3x1.000 + 8x10.000 + 3x1.000 + 5x100</p>
+              <p>c) 800.000 + 30.000 + 8.000 + 300 + 50</p>
+              <p>D) 8x10.000 + 3x1.000 + 8x100 + 35x10</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-0.5 flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="1"
+                  id="1-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="1"
+                  id="1-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="1"
+                  id="1-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="1"
+                  id="1-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Punto 2 -->
+        <div class="flex flex-col mt-12 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            2) ¿Cuál de los siguientes cálculos es equivalente a 55 x 12?
+          </p>
+          <div class="flex justify-evenly mt-8">
+            <div class="justify-center mt-4">
+              <p>A) 55 x 10 + 55 x 2</p>
+              <p>B) 55 + 6 + 6</p>
+              <p>C) 55 x 3 + 2 + 2</p>
+              <p>D) 55 x 3 x 2 x 2</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-2 flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="2"
+                  id="2-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="2"
+                  id="2-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="2"
+                  id="2-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="2"
+                  id="2-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 3 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            3) En el vagón del tren había 28 pasajeros. En cada una de las 4
+            estaciones siguientes subieron 5 pasajeros, en una bajaron 8 y en
+            otra 7.
+          </p>
+          <p class="font-medium text-center mt-8">En el vagón quedaron:</p>
+          <div class="flex justify-evenly mt-2">
+            <div class="justify-center mt-4">
+              <p>A) 33</p>
+              <p>B) 47</p>
+              <p>C) 52</p>
+              <p>D) 18</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-2 flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="3"
+                  id="3-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="3"
+                  id="3-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="3"
+                  id="3-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="3"
+                  id="3-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 4 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            4) En el puesto de flores arman ramos de rosas, claveles o
+            margaritas. Pueden envolverlo con papel liso o estampado y ponerle
+            un moño azul o rojo.
+          </p>
+          <p class="font-medium text-center mt-8">
+            ¿Cuántos ramos distintos pueden ofrecer?
+          </p>
+          <div class="flex justify-evenly mt-4">
+            <div class="justify-center mt-4">
+              <p>A) 7</p>
+              <p>B) 12</p>
+              <p>C) 36</p>
+              <p>D) 18</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="4"
+                  id="4-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="4"
+                  id="4-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="4"
+                  id="4-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="4"
+                  id="4-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 5 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            5) Dados los siguientes números: 9 – 27 – 45 – 108 – 90 – 207 – 63
+          </p>
+          <p class="font-bold text-center mt-8">
+            Decidir si <strong>TODOS</strong> los números son múltiplos de:
+          </p>
+          <div class="flex justify-evenly mt-4">
+            <div class="justify-center mt-4">
+              <p>A) 4</p>
+              <p>B) 2</p>
+              <p>C) 5</p>
+              <p>D) 9</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-0.5 flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="5"
+                  id="5-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="5"
+                  id="5-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="5"
+                  id="5-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="5"
+                  id="5-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 6 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            6) Lucía y Clara compran 18 bombones. Cada uno cuesta $15. ¿Qué
+            cálculo te permite hallar el precio de los 18 bombones?
+          </p>
+          <div class="flex justify-evenly mt-6">
+            <div class="justify-center mt-2">
+              <p>A) 15 x 20 – 15</p>
+              <p>B) 15 x 20 – 18</p>
+              <p>C) 15 x 20 – 30</p>
+              <p>D) 15 x 20 – 36</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-1 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="6"
+                  id="6-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="6"
+                  id="6-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="6"
+                  id="6-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="6"
+                  id="6-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 7 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            7) La farmacia “Buena Salud” vende cajas de “Memorión”. Sabiendo que
+            4 cajas tienen 48 comprimidos, ¿cuántos comprimidos tendrán 12
+            cajas?
+          </p>
+          <p class="font-medium text-center mt-8">
+            Puedes ayudarte realizando una tabla con los valores: cant de cajas
+            – cant de comprimidos x caja
+          </p>
+          <div class="flex justify-evenly">
+            <div class="justify-center mt-2">
+              <p class="mt-1">A) 144 comprimidos</p>
+              <p class="mt-1">B) 12 comprimidos</p>
+              <p class="mt-1">C) 120 comprimidos</p>
+              <p class="mt-1">D) 64 comprimidos</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-3 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="7"
+                  id="7-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="7"
+                  id="7-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="7"
+                  id="7-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="7"
+                  id="7-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 8 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            8) En una tienda, Mateo tiene que armar paquetes de 4 rollos de
+            papel higiénico cada uno. Si tiene 153 rollos de papel higiénico,
+            ¿cuántos rollos más hacen falta para completar el último paquete?
+          </p>
+          <div class="flex justify-evenly mt-6">
+            <div class="justify-center mt-2">
+              <p>A) 152 rollos de papel higiénico</p>
+              <p>B) 1 rollos de papel higiénico</p>
+              <p>C) 3 rollos de papel higiénico</p>
+              <p>D) 156 rollos de papel higiénico</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-1 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="8"
+                  id="8-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="8"
+                  id="8-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="8"
+                  id="8-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="8"
+                  id="8-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-16">
+          <hr color="black" class="mx-4 h-1" />
+          <h3 class="text-center mt-4 font-bold text-xl">
+            FRACCIONES Y DECIMALES
+          </h3>
+        </div>
+        <!-- punto 9 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <div class="mx-3 font-semibold text-lg">
+            9) Las alturas de cinco amigos son las siguientes:
+            <div class="text-center mt-2 flex flex-col font-bold">
+              Miguel 1,5 m&emsp;&emsp;&emsp;Juan 1,51 m
+              <div class="text-center font-bold mt-2">
+                Pedro 1,64 m&emsp;&emsp;Lautaro 1,46 m
+              </div>
+              <div class="text-center font-bold mt-2">Francisco 1,55 m.</div>
+            </div>
+          </div>
+          <p class="font-medium text-center mt-8">
+            Indica cuál es el orden de las alturas de
+            <strong>mayor a menor</strong>
+          </p>
+          <div class="flex justify-evenly mt-6">
+            <div class="justify-center mt-2">
+              <p>A) 1,64 m – 1,55 m – 1,51 m – 1,5 m – 1,46 m</p>
+              <p>B) 1,46 m – 1,5 m – 1,51 m – 1,55 m – 1,64 m</p>
+              <p>C) 1,64 m – 1,5 m – 1,55 m – 1,51 m – 1,46 m</p>
+              <p>D) 1,64 m – 1,46 m – 1,55 m – 1,51 m – 1,5 m</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-1 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="9"
+                  id="9-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="9"
+                  id="9-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="9"
+                  id="9-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="9"
+                  id="9-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 10 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="flex mx-3 font-semibold justify-center text-lg">
+            10)
+            <img
+              src="static/mathSexthPrimary/puntoDiez.png"
+              alt="puntoDiez"
+              class="w-[600px]"
+            />
+          </p>
+          <div class="flex justify-evenly mt-2">
+            <div class="justify-center mt-4">
+              <p class="mt-4">A) $46,55</p>
+              <p class="mt-4">B) $27,75</p>
+              <p class="mt-4">C) $37,05</p>
+              <p class="mt-4">D) $39,44</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-7 flex flex-col gap-4">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="10"
+                  id="10-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="10"
+                  id="10-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="10"
+                  id="10-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="10"
+                  id="10-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 11 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            11) Doña María recibió paquetes de yerba de distintas cantidades: 2
+            paquetes de1 kg, 5 paquetes de ¼ kg y 3 paquetes de ½ kg.
+          </p>
+          <p class="font-medium text-center mt-6">
+            ¿Cuántos kilos de yerba recibió en total?
+          </p>
+          <div class="flex justify-evenly mt-6">
+            <div class="justify-center mt-2">
+              <p class="mt-1">A) 1 ¾ kg</p>
+              <p class="mt-1">B) 2 8/6 kg</p>
+              <p class="mt-1">C) 4 ¾ kg</p>
+              <p class="mt-1">D) 5 kg</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-2 flex flex-col gap-2">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="11"
+                  id="11-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="11"
+                  id="11-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="11"
+                  id="11-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="11"
+                  id="11-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 12 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            12) En la escuela, unos niños estaban calculando el tiempo que
+            faltaba para que llegue la hora de volver a casa: falta ¼ de hora de
+            recreo, 1 hora de clase de Lengua y ½ hora de clase de Ciencias.
+            ¿Cuánto tiempo falta para la hora de tocar la campana de salida?
+          </p>
+          <div class="flex justify-evenly mt-6">
+            <div class="justify-center mt-4">
+              <p>A) Una hora</p>
+              <p>B) Más de una hora</p>
+              <p>C) Menos de una hora</p>
+              <p>D) Dos horas</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-2 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="12"
+                  id="12-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="12"
+                  id="12-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="12"
+                  id="12-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="12"
+                  id="12-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-16">
+          <hr color="black" class="mx-4 h-1" />
+          <h3 class="text-center mt-4 font-bold text-xl">
+            GEOMETRÍA Y MEDIDAS
+          </h3>
+        </div>
+        <!-- punto 13 -->
+        <div class="flex flex-col mt-12 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            13) Juan tiene una huerta rectangular y quiere colocar una cerca de
+            alambre alrededor. La huerta mide 150 cm de largo x 80 cm de ancho.
+            ¿Cuántos metros de alambre debe comprar Juan?
+          </p>
+          <div class="flex justify-evenly mt-8">
+            <div class="justify-center mt-2">
+              <p>A) 4,60 m</p>
+              <p>B) 2,30 m</p>
+              <p>C) 460 m</p>
+              <p>D) 3 m</p>
+            </div>
+
+            <!-- opciones   -->
+
+            <div class="mt-1 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="13"
+                  id="13-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="13"
+                  id="13-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="13"
+                  id="13-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="13"
+                  id="13-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 14 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            14) Calcula el área de la figura compuesta por dos cuadrados. Los
+            lados del cuadrado “ABCD” tienen una longitud de 8 cm. La longitud
+            de los lados del cuadrado “EFDG” es la mitad de la del cuadrado
+            “ABCD”.
+          </p>
+          <div class="flex justify-center mt-8">
+            <img
+              src="static/mathSexthPrimary/puntoCatorce.png"
+              alt="puntoCatorce"
+              class="w-[300px]"
+            />
+          </div>
+          <div class="flex justify-evenly mt-8">
+            <div class="justify-center mt-2">
+              <p>A) 64 cm2</p>
+              <p>B) 48 cm2</p>
+              <p>C) 80 cm2</p>
+              <p>D) 40 cm2</p>
+            </div>
+
+            <!-- Opciones -->
+            <div class="mt-2 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="14"
+                  id="14-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="14"
+                  id="14-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="14"
+                  id="14-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="14"
+                  id="14-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- punto 15 -->
+        <div class="flex flex-col mt-16 justify-center">
+          <p class="mx-3 font-semibold text-lg">
+            15) Dado el siguiente triángulo rectángulo, encuentra la medida de
+            los dos ángulos faltantes.
+          </p>
+          <div class="flex justify-center mt-8">
+            <img
+              src="static/mathSexthPrimary/puntoQuince.png"
+              alt="puntoQuince"
+              class="w-[200px]"
+            />
+          </div>
+          <div class="flex justify-evenly mt-8">
+            <div class="justify-center mt-2">
+              <p>A) 90° y 90°</p>
+              <p>B) 90° y 35°</p>
+              <p>C) 45° y 90°</p>
+              <p>D) 45° y 45°</p>
+            </div>
+
+            <!-- Opciones -->
+
+            <div class="mt-1 flex flex-col gap-1">
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">A)</p>
+                <input
+                  type="checkbox"
+                  name="15"
+                  id="15-a"
+                  class="mt-1"
+                  value="a"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">B)</p>
+                <input
+                  type="checkbox"
+                  name="15"
+                  id="15-b"
+                  class="mt-1"
+                  value="b"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">C)</p>
+                <input
+                  type="checkbox"
+                  name="15"
+                  id="15-c"
+                  class="mt-1"
+                  value="c"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+              <div class="flex text-[16px] font-semibold items-center gap-1">
+                <p class="">D)</p>
+                <input
+                  type="checkbox"
+                  name="15"
+                  id="15-d"
+                  class="mt-1"
+                  value="d"
+                  onclick="handleCheckbox(this)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-[10px]"></div>
+      </form>
+    </div>
+    <div class="h-[20px]"></div>
+  </body>
+</html>
